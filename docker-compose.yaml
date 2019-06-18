@@ -1,0 +1,14 @@
+version: '3'
+
+services:
+  http-consumer:
+    image: seiferd/service-http-consumer
+    ports:
+      - "8080:8080"
+    links:
+      - service-a
+      - service-b
+  service-a:
+    image: seiferd/service-a
+  service-b:
+    image: seiferd/service-b
