@@ -7,4 +7,7 @@ This project is a POC to demonstrate:
  * cluster docker containers to talk to each other
  
 ## Why?
-Started this project as I found it difficult to find a bare minimum to get this up and running.  
+Started this project as I found it difficult to find a bare minimum to get this up and running.
+
+#How to run
+First build the project with ```mvn clean package``` and afterwards run it with ```docker-compuse up```  
