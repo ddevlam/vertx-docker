@@ -9,5 +9,5 @@ This project is a POC to demonstrate:
 ## Why?
 Started this project as I found it difficult to find a bare minimum to get this up and running.
 
-#How to run
+# How to run
 First build the project with ```mvn clean package``` and afterwards run it with ```docker-compose up```  
